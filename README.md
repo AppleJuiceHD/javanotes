@@ -2,7 +2,7 @@
 
 > This is a study note for learning Java and reviewing some key points later.
 
-开头推荐一个"程序员必读书单1.0"：http://lucida.me/blog/developer-reading-list/。涉及"…入门书籍，必读书籍，以及延伸阅读…"，供参考（虽然作者出了1.0后5年都未更新……）。
+开头推荐一个"程序员必读书单1.0"：http://lucida.me/blog/developer-reading-list/ 。涉及"…入门书籍，必读书籍，以及延伸阅读…"，供参考（虽然作者出了1.0后5年都未更新……）。
 
 ## Book 1: *Core Java Volume 1 - Fundamentals*
 
