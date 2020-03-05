@@ -4,6 +4,38 @@
 
 开头推荐一个"程序员必读书单1.0"，涉及"…入门书籍，必读书籍，以及延伸阅读…"，供参考（虽然作者出了1.0后5年都未更新……）：http://lucida.me/blog/developer-reading-list/ 
 
+
+
+## Homework
+
+### J01
+
+### J02
+
+### J03
+
+### J04
+
+### J05
+
+### J06
+
+### J07
+
+### O1
+
+### O2
+
+
+
+## Lab
+
+### Lab 1
+
+### Lab 2
+
+
+
 ## Book 1: *Core Java Volume 1 - Fundamentals*
 
 - Book website: 
@@ -17,9 +49,11 @@
 
 - Book website: https://introcs.cs.princeton.edu/java/home/
 
+
+
 ## Book 2: *Algorithms(4th Edition)*
 
-Book website: https://algs4.cs.princeton.edu/home/
+- Book website: https://algs4.cs.princeton.edu/home/
 
 
 
