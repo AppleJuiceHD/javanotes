@@ -177,3 +177,64 @@ public class Math {
 
 ### 4.6.2 默认域初始化
 
+- 如果在构造器中没有显式地给域赋予初值，那么域初始化成默认值：数值为0、布尔值为 false、对象引用为 null。
+
+### 4.6.3 无参数的构造器
+
+- 仅当类没有提供任何构造器的时候系统才会提供一个默认的构造器。这个构造器将所有的实例域设置为默认值。
+
+### 4.6.4 显式域初始化
+
+- 初始值不一定是常量值，也可以调用方法对域进行初始化。
+
+### 4.6.5 参数名
+
+```java
+public Employee(String aName, double aSalary) {
+  name = aName;
+  salary = aSalary;
+}
+```
+
+或者
+
+```java
+public Employee(String name, double salary) {
+  // 关键字 this 引用方法对隐式参数
+  this.name = name;
+  this.salary = salary;
+}
+```
+
+### 4.6.6 调用另一个构造器
+
+```java
+public Employee(double s) {
+  // calls Employee(String, double) 
+  // 如果构造器的第一个语句形如 this(...) 这个构造器将调用同一个类的另一个构造器
+  this("Employee #" + nextID, s);
+  nextID++;
+}
+```
+
+### 4.6.7 初始化块
+
+- review 两种初始化数据域的方法：
+  - 在构造器中设置值
+  - 在声明中赋值
+- 第三种：*初始化块*（initialization block），建议将初始化块放在域定义之后
+
+### 4.6.8 对象析构与 finalize 方法
+
+
+
+## 4.7 *包*（package）
+
+使用包可以确保类名的唯一性。
+
+### 4.7.1 类的导入
+
+- 一个类可以使用所属包中的所有类，以及其他包中的公有类（public class）。
+
+### 4.7.2 
+
