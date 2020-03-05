@@ -1,14 +1,15 @@
-package Homework.J03;
+package Homework.J04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class NumberWord {
+public class Name {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String s = reader.readLine();
-        int n = Integer.parseInt(reader.readLine());
-        System.out.println(n+", "+s);
+        String name = reader.readLine();
+        name = name.toUpperCase();
+        System.out.println(name);
+        System.out.println(name.length());
     }
 }

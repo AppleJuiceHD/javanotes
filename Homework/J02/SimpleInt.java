@@ -1,4 +1,4 @@
-// package comp1110.homework.J02;
+package Homework.J02;
 
 public class SimpleInt {
     public static void main(String[] args) {
