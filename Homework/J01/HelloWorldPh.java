@@ -1,6 +1,6 @@
-// package comp1110.homework.J01;
+package Homework.J01;
 
-public class HelloWorld {
+public class HelloWorldPh {
     public static void main(String[] args) {
         String s = "Hello world!";
         System.out.println(s);
